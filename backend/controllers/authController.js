@@ -1,7 +1,6 @@
 import bcrypt from "bcrypt";
 import { User } from "../models/userModel.js";
 import { generateToken } from "../utils/generateToken.js";
-import { verifyToken } from "../utils/verifyToken.js";
 
 export const signup = async (req, res) => {
   try {
